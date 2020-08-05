@@ -1,4 +1,4 @@
-# Web Server desenvolvido para a apliação Proffy na #Next_Level_Week_02
+# API REST desenvolvida para a aplicação Proffy na #Next_Level_Week_02
 
 ## Funcionalidades e Rotas
 
