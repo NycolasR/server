@@ -44,7 +44,7 @@ export default class ClassesController {
       .where("classes.subject", "=", subject)
       // Join na tabela users onde o ID do usuário presente na
       //tabela classes é igual ao ID presente na tablela users
-      .join("users", "classes.user_id", "=", "user_id")
+      .join("users", "classes.user_id", "=", "users.id")
       // Selecionando todos os dados da tabela classes e todos dos dados da tabela users
       .select(["classes.*", "users.*"]);
 
