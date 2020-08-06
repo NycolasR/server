@@ -5,6 +5,7 @@ import path from "path"; // Módulo integrado dentro do node
 
 const database = knex({
   client: "sqlite3",
+  debug: true,
   connection: {
     // Onde dentro do projeto vai ficar armazenado o banco sqlite
     filename: path.resolve(__dirname, "database.sqlite"),
